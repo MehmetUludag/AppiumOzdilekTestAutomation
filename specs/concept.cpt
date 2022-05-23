@@ -1,0 +1,48 @@
+Created by testinium on 23.05.2022
+
+This is a concept file with following syntax for each concept.
+#Get Started
+* "5" saniye kadar bekleyiniz.
+* Elementi "//*[@resource-id='com.ozdilek.ozdilekteyim:id/tv_startShoppingStore']" bul ve "ALIŞVERİŞE BAŞLA" değerini kontrol et
+* "5" saniye kadar bekleyiniz.
+*"//*[@resource-id='com.ozdilek.ozdilekteyim:id/tv_startShoppingStore']" xpath'li elemente tıkla
+* "5" saniye kadar bekleyiniz.
+
+#Categories
+* Elementi "//*[@resource-id='com.ozdilek.ozdilekteyim:id/smallLabel']" bul ve "Kategoriler" değerini kontrol et
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/nav_categories']" xpath'li elemente tıkla
+* "5" saniye kadar bekleyiniz.
+* Elementi "//*[@text='Kadın']" bul ve "Kadın" değerini kontrol et
+* "//*[@text='Kadın']" xpath'li elemente tıkla
+* "5" saniye kadar bekleyiniz.
+* "//*[@text='Pantolon']" xpath'li elemente tıkla
+* "5" saniye kadar bekleyiniz.
+
+#Swipe
+* Sayfayı yukarı kaydır.
+* "5" saniye kadar bekleyiniz.
+* Sayfayı yukarı kaydır.
+* Rastgele ürün seç ve "5" saniye bekle
+* Sayfayı yukarı kaydır.
+* "5" saniye kadar bekleyiniz.
+* Elementi "//*[@bounds='[685,1680][943,1724]']" bul ve "SEPETE EKLE" değerini kontrol et
+
+#Add To Favorite
+* "5" saniye kadar bekleyiniz.
+* "com.ozdilek.ozdilekteyim:id/imgAddFav" id'li elemente tıkla
+* "5" saniye kadar bekleyiniz.
+
+#Login
+* Elementi "//*[@resource-id='com.ozdilek.ozdilekteyim:id/etEposta']" bul ve "E - posta Adresi" değerini kontrol et
+* "com.ozdilek.ozdilekteyim:id/etEposta" id'li elemente "text" değerini yaz
+* "5" saniye kadar bekleyiniz.
+* "com.ozdilek.ozdilekteyim:id/etPassword" id'li elemente "şifre" değerini yaz
+* "5" saniye kadar bekleyiniz.
+
+#Turn Back and Add To Cart
+* "com.ozdilek.ozdilekteyim:id/ivBack" id'li elemente tıkla
+* "5" saniye kadar bekleyiniz.
+* "com.ozdilek.ozdilekteyim:id/ivBack" id'li elemente tıkla
+* "5" saniye kadar bekleyiniz.
+* Rastgele ürün seç ve "5" saniye bekle
+* "//*[@text='SEPETE EKLE']" xpath'li elemente tıkla
